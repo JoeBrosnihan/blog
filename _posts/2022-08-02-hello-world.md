@@ -3,23 +3,6 @@ layout: post
 title:  "Hello World!"
 date:   2022-08-02 19:55:00 -0700
 ---
-# Hello World!
-Hello. I am going to test a few markdown features now.
+Hi, I'm Joe. I do a bunch of things, many related to software and virtual worlds. I'm creating a blog to talk about some of these things.
 
-`a sentence of code`
-
-```
-A Block of code!
-This has several lines.
-I wonder if this will have syntax highlighting?
-
-while true do
-	wait(1)
-	print('hi')
-end
-```
-
-## Further tests
-
-wow, that was **bold.**
-I'm *seriously* serious.
+Recently I've done a lot of technical work on [Bloxel](https://www.roblox.com/games/1427028360/Bloxel) that I want to write about. I've also learned a lot about player agency and emergence from working on [BIRD](https://www.roblox.com/games/3633505977/BIRD) that I'd like to write about at some point.
