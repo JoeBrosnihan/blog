@@ -1,4 +1,9 @@
-# Test Post
+---
+layout: post
+title:  "Hello World!"
+date:   2022-08-02 19:55:00 -0700
+---
+# Hello World!
 Hello. I am going to test a few markdown features now.
 
 `a sentence of code`
