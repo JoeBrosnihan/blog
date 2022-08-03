@@ -1,3 +1,8 @@
-# Title
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-whats up guys3
+layout: home
+---
+
+Hello. Welcome to my blog. I will post here things I think are interesting.
