@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "Building a UGC Economy in BIRD"
+date:   2024-03-22 19:55:00 -0700
+---
+
 We built a UGC platform in BIRD on Roblox.
 
 [https://twitter.com/bouyerthe/status/1769816713766318390](https://twitter.com/bouyerthe/status/1769816713766318390)
