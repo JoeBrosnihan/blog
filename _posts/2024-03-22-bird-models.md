@@ -3,10 +3,10 @@ layout: post
 title:  "Building a UGC Economy in BIRD"
 date:   2024-03-22 19:55:00 -0700
 ---
+
 We built a UGC platform in BIRD on Roblox.
 
 https://twitter.com/bouyerthe/status/1769816713766318390
-https://www.youtube.com/watch?v=Amwp6iZ377I
 
 We did this because the our game has a community of young people excited to create things, and an audience of players excited to play with new creations. We connected these creators to the audience so we, the small team of first-party developers, would no longer be the content bottleneck.
 
