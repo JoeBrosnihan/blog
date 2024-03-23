@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Building a UGC Economy in BIRD"
-date:   2024-03-22 19:55:00 -0700
+date:   2024-03-21 19:55:00 -0700
 ---
 
 We built a UGC platform in BIRD on Roblox.
