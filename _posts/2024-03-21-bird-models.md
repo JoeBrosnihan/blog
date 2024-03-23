@@ -3,10 +3,11 @@ layout: post
 title:  "Building a UGC Economy in BIRD"
 date:   2024-03-21 19:55:00 -0700
 ---
-
+<div style="text-align: center;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Amwp6iZ377I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
-We built a UGC platform in our game, BIRD, on Roblox. Our community is excited to create things, and our audience is excited to play with new creations. We connected these creators to our audience so the small team of first-party developers would no longer be a bottleneck for content.
+We built a UGC platform in BIRD on Roblox. Our community is excited to create things, and our audience is excited to play with new creations. We connected these creators to our audience so us first-party developers would no longer be a bottleneck for content.
 
 So far, it's worked out incredibly well. BIRD's daily revenue has doubled because players want to pay to insert other creators' models, and we've paid 300k R$ (3k USD) to our creators.
 
@@ -40,7 +41,7 @@ for i, model in playersModels do
 	model.Parent = workspace
 end
 ```
-Note - Because we're forced to get the player models by requiring a ModuleScript by assetId, there's no opportunity for us to strip player scripts. A player could insert whatever code they want on the line before `return script:GetChildren()` and we'd have no way of detecting or preventing that code from running.
+Note - Because we're forced to get the player models by requiring their module, they can execute arbitrary code before we get access to their models. They need only insert code before `return script:GetChildren()` and we'd have no way of detecting or preventing that code from running.
 
 We've done our best to simplify this through in-game Video tutorials, error messages, examples on GitHub, and even community-made tutorials. This was a lot of work we could have avoided if we could just use `LoadAsset`.
 
@@ -67,4 +68,3 @@ Every weekend, I manually pay out our creators through the Group.
 On Sunday, I run a script that prints out the list of creators and amounts due. I paste these values into the website for a One Time group payout. This is tedious and error prone. It can take up to an hour now there are 30+ players making content every week and I need to carefully follow a few steps for each player, including giving them a cosmetic "Model Maker" role in the group.
 
 There is a period after joining a group in which a player is "too new" to receive any payouts. (1 week?) In the worst case, a creator may wait 2 weeks to get any payout for their creation.
-
