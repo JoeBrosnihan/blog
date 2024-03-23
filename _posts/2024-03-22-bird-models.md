@@ -3,10 +3,10 @@ layout: post
 title:  "Building a UGC Economy in BIRD"
 date:   2024-03-22 19:55:00 -0700
 ---
-
 We built a UGC platform in BIRD on Roblox.
 
-[https://twitter.com/bouyerthe/status/1769816713766318390](https://twitter.com/bouyerthe/status/1769816713766318390)
+https://twitter.com/bouyerthe/status/1769816713766318390
+https://www.youtube.com/watch?v=Amwp6iZ377I
 
 We did this because the our game has a community of young people excited to create things, and an audience of players excited to play with new creations. We connected these creators to the audience so we, the small team of first-party developers, would no longer be the content bottleneck.
 
@@ -19,7 +19,7 @@ Roblox doesn't support self-serve "modding" well enough for most developers to a
 - Asset system and Toolbox must be rebuilt from scratch
 - Creators must be manually paid regularly
 
-## Inserting Models
+### Inserting Models
 We have to use an obscure workaround for inserting Model Assets, which forces the models to conform to a BIRD-specific format.
 - We cannot insert arbitrary Models from the Toolbox. Players must make them for BIRD.
 - Over 50% of our creators who attempt to make a Model fail because their format is wrong.
@@ -46,7 +46,7 @@ Note - Because we're forced to get the player models by requiring a ModuleScript
 
 We've done our best to simplify this through in-game Video tutorials, error messages, examples on GitHub, and even community-made tutorials. This was a lot of work we could have avoided if we could just use `LoadAsset`.
 
-## Sandboxing Scripts
+### Sandboxing Scripts
 Players can include Scripts in their Models. We've seen them make insanely creative NPCs (a robot you can command to chase and kill other players), Vehicles (mining drills, helicopters), and even minigames (a Battle Royale game mode).
 
 Sandboxing these scripts simply is not feasible. The Script.Source property isn't accessible at runtime, so we cannot parse script contents in any way to block malicious activity like wiping our DataStores.
@@ -55,7 +55,7 @@ In fact, we think someone tried to do that. A player created a model titled "BIR
 
 BIRD happens to not store any persistent data in the first place, we can tolerate players wiping our DataStores. Other Roblox experiences cannot. It's unlikely they'd ever allow player script execution without guarantees to limit script capabilities.
 
-## Rebuilding the Toolbox
+### Rebuilding the Toolbox
 It took us (two programmers working part-time) 4 months to rebuild features Roblox has built but not yet exposed to developers
 - A query-able database of known BIRD-format assets, since there's no lua API for searching Roblox's catalog of Model Assets
 - Asset management flows - creation, deletion, updating name/description/public-visibility.
@@ -63,7 +63,7 @@ It took us (two programmers working part-time) 4 months to rebuild features Robl
 
 If the Studio Toolbox were open source and all its dependent APIs worked in-game, we'd have just dropped that in with light modification, in a day or two. We'd probably make the background pink to fit our game and that's it.
 
-## Manual Payouts
+### Manual Payouts
 Every weekend, I manually pay out our creators through the Group.
 
 On Sunday, I run a script that prints out the list of creators and amounts due. I paste these values into the website for a One Time group payout. This is tedious and error prone. It can take up to an hour now there are 30+ players making content every week and I need to carefully follow a few steps for each player, including giving them a cosmetic "Model Maker" role in the group.
