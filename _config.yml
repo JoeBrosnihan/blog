@@ -21,7 +21,7 @@
 title: Joe's Blog
   # email: jbrosnihan@protonmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Learning, coding, virtual worlds, the metaverse.
+  virtual worlds.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://joebrosnihan.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: bouyerthe
