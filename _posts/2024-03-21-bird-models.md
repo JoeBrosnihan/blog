@@ -7,7 +7,7 @@ date:   2024-03-21 19:55:00 -0700
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Amwp6iZ377I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-We built a UGC platform in our Roblox game, BIRD. Our community is excited to create new things and our audience is excited to play with them. We as first-party developers are no longer be the bottleneck for content in the game.
+We built a UGC platform in our Roblox game, BIRD. Our community is excited to create things and our audience is excited to play with them. We, the first-party developers, are no longer the bottleneck for content in the game.
 
 So far, it's worked out incredibly well. BIRD's daily revenue has doubled because players want to pay to insert other creators' models, and we've paid 300k R$ (3k USD) to our creators.
 
