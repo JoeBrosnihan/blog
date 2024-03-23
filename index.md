@@ -4,5 +4,3 @@
 
 layout: home
 ---
-
-Hello. Welcome to my blog. I will post here things I think are interesting.
